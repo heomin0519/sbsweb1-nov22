@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <from>
+        <fieldset>
+            <legend>숫자</legend>
+            <input type="number" min="-13" max="7" value="3" step="2">
+            <input type="range" min="0" max="10" value="3">
+        </fieldset>
+        <fieldset>
+            <legend>날짜/시간</legend>
+            <p>
+            <input type="date" min="2022-10-05" max="2022-11-16" value="2022-11-15">
+            <input type="month" min="2019-03" max="2022-12" value="2022-11">
+            <input type="week" min="2022-W42" max="2022-W43" value="2022-W39">
+            </p>
+            <p>
+                <input type="time" min="12:25" max="16:30">
+                <input type="datetime-lacal">
+            </p>
+        </fieldset>
+        <div>
+            <input type="button" onclick="alert('알림');">
+            <input type="image" src="img/naverlogo.png" alt="네이버 창 띄우기">
+            <input type="file">
+            <input type="hidden" name="test" value="1234">
+        </div>
+        <fieldset>
+            <legend>텍스트 영역</legend>
+            <input type="text">
+            <textarea rows="4" cols="40"></textarea>
+        </fieldset>
+    </from>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>회원가입</legend>
+            <p> 
+                <label>아이디 <input type="text" size="30" value="5~30자 내로 입력해주세요." maxlength="30"></label>
+            </p>
+            <p>
+                <label>비밀번호</label>
+                <input type="password">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>상품 선택</legend>
+            <p>
+                <label>검색 <input type="search"></label>
+                <p>주문 상품을 선택하세요</p>
+                <label><input type="checkbox" value="iphone 14">iphone 14</label><br>
+                <label><input type="checkbox" value="iphone 14 pro">iphone 14 pro</label><br>
+                <label><input type="checkbox" value="iphone 14 max" checked>iphone 14 max</label>
+                <p>포장 선택</p>
+                <label><input type="radio" name="pack" value="packyes">포장 o</label>
+                <label><input type="radio" name="pack" value="packno">포장 x</label>
+            </p> 
+        </fieldset>
+        <fieldset>
+            <legend>배송 정보</legend>
+            <url>
+                <li>
+                    <label for="addr">배송 주소</label>
+                    <input type="address" id="addr">
+                </li>
+                <li>
+                    <label for="phone">연락처</label>
+                    <input type="tel" id="phone">
+                </li>
+                <li>
+                    <label for="email">이메일 주소</label>
+                    <input type="email" id="mail">
+                </li>
+            </url>
+        </fieldset>
+        <div>
+            <input type="submit" value="확인">
+            <input type="reset" value="취소">
+        </div>
+    </form>
+</body>
+</html>
