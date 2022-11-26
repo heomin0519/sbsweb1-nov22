@@ -1,0 +1,14 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+</style>
+
+
+body > p: :nth-child(1) {
+    font-family: 돋움, 굴림, "맑은 고딕";
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: "abc";
+    src: url('../fonts/Hahmlet-Medium.ttf') format('truetype');
+}
